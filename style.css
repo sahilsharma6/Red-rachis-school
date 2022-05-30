@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Work+Sans:ital,wght@0,300;1,200;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{
+    --use:linear-gradient(120deg, #96e1ff, #9334eb);
+}
+
+nav{
+    background: var(--use);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 20px;
+    padding-top: 100px;
+    background: #96e1ff;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.container .inf{
+    flex: 1 1 260px;
+}
+
+.container .inf h2{
+    color: #9334eb;
+    font-weight: bold;
+}
+
+.container .inf img{
+    width: 100%;
+}
+
+li a{
+    color: #9334eb;
+}
+a:hover{
+    color:#96e1ff ;
+}
+
+
+/* footer */
+
+footer{
+    padding: 2rem 7%;
+}
+
+footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: ; */
+}
+
+
+footer .box-container .box{
+    flex: 1 1 20rem;
+}
+
+
+footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: var(--violet);
+    padding: .7rem 0;
+}
+
+footer .box-container .box p{
+    font-size: 1.5rem;
+    color:#666;
+    padding: .7rem 0;
+}
+
+footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    color:#666;
+    padding: .7rem 0;
+}
+
+footer .box-container .box a:hover{
+    color: var(--pink);
+}
+
+footer .box-container .box p i{
+    padding-right: .5rem;
+    color: var(--pink);
+}
+
+#box i{
+    color: var(--violet);
+    }
+    
+footer .credit{
+
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding:1rem;
+    padding-top: 2rem;
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    color: #666;
+}
+
