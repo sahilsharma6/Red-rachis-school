@@ -45,7 +45,7 @@ li a{
     color: #9334eb;
 }
 a:hover{
-    color:#96e1ff ;
+    color: white ;
 }
 
 
@@ -71,20 +71,20 @@ footer .box-container .box{
 
 
 footer .box-container .box h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--violet);
     padding: .7rem 0;
 }
 
 footer .box-container .box p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color:#666;
     padding: .7rem 0;
 }
 
 footer .box-container .box a{
     display: block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color:#666;
     padding: .7rem 0;
 }
@@ -104,7 +104,7 @@ footer .box-container .box p i{
     
 footer .credit{
 
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
     padding:1rem;
     padding-top: 2rem;
